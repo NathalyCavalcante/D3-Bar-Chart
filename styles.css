@@ -1,0 +1,68 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #4F6D7A;
+}
+
+main {
+    width: 900px;
+    background-color: #E8DAB2;
+    padding: 20px 48px;
+    margin: 20px auto;
+    box-shadow: 0 0 12px #25353b;
+}
+
+#title {
+    color: black;
+    font-size: 2rem;
+    text-align: center;
+    margin: 12px auto;  
+    width: 280px;
+    display: block;
+    border-bottom: 2px solid #25353b;
+}
+
+#tooltip {
+    color: white;
+    font-size: 0.875rem;
+    width: 135px;
+    padding-left: 10px;
+    background-color: #335C67;
+    opacity: 0;
+    position: absolute;
+    top: 200px;
+    border-radius: 6px;
+}
+
+.bar {
+    fill: #540B0E;
+
+}
+
+/* .bar2 {
+    fill: #9E2A2B;
+} */
+
+.bar:hover, .bar2:hover {
+    fill: #E09F3E;
+}
+
+.axes {
+    font-size: 0.8rem;
+    color:#25353b;
+    stroke-width: 2px;
+}
+
+.domain {
+    stroke: #25353b;
+}
+
+#desc {
+    color: black;
+    display: flex;
+    justify-content: space-between;
+}
